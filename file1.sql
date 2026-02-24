@@ -1,0 +1,5 @@
+--FILE 1
+SELECT P.P_GENDER, N.NURSE_POSITION
+FROM Person P
+JOIN NURSE N
+ON P.P_FullName = N.P_FullName AND P.P_ICNumber = N.P_ICNumber;
